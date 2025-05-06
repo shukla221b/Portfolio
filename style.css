@@ -32,6 +32,10 @@ nav {
     gap: 20px;
     background: #457b9d;
     padding: 15px;
+    position: sticky;      /* 🔥 this makes it fixed */
+    top: 0;                /* stick to the top */
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
